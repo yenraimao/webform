@@ -1,7 +1,8 @@
-from base import *
 from flask import Flask, render_template, request
 import logging
 import requests
+
+api_key = ""
 
 app = Flask(__name__)
 
