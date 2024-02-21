@@ -1,0 +1,175 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug: * Detected change in '/Users/jpockey/code/verification form project/app.py', reloading
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:30:50] "POST /form HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/jpockey/code/verification form project/base.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:root:Successful API request for email: jeremy@jeremypockey.com
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:31:21] "POST /form HTTP/1.1" 200 -
+INFO:root:Successful API request for email: jeremy.pockey@gmail.com
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:31:24] "POST /form HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/jpockey/code/verification form project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:36:30] "GET /form HTTP/1.1" 200 -
+ERROR:root:API request for email jeremy.pockey@gmail.com failed with 401 Unauthorized
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:36:33] "POST /form HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/jpockey/code/verification form project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:37:58] "GET /form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:38:01] "POST /form HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:39:36] "POST /form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:39:49] "POST /form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:39:51] "POST /form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:40:05] "GET /form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:40:22] "POST /form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:40:30] "POST /form HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:42:16] "GET /form HTTP/1.1" 200 -
+ERROR:root:Failed API request for email: jeremy.pockey@gmail.com, Error: 401 Client Error: Unauthorized for url: https://api.mailgun.net/v4/address/validate?address=jeremy.pockey%40gmail.com
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:42:20] "POST /form HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:42:52] "GET /form HTTP/1.1" 200 -
+ERROR:root:Failed API request for email: jeremy.pockey@gmail.com, Error: 401 Client Error: Unauthorized for url: https://api.mailgun.net/v4/address/validate?address=jeremy.pockey%40gmail.com
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:42:54] "POST /form HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/jpockey/code/verification form project/base.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:43:14] "GET /form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:43:17] "POST /form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:43:19] "GET /form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:50:29] "POST /form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Feb/2024 13:50:30] "GET /form HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 21:44:37] "GET /form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 21:44:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 21:44:50] "POST /form HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/jpockey/code/verification form project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 21:46:44] "GET /form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 21:46:46] "POST /form HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/jpockey/code/verification form project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug: * Detected change in '/Users/jpockey/code/verification form project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug: * Detected change in '/Users/jpockey/code/verification form project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 21:47:09] "GET /form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 21:47:11] "POST /form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 21:47:12] "GET /form HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/jpockey/code/verification form project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 21:47:19] "GET /form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 21:47:22] "POST /form HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/jpockey/code/verification form project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug: * Detected change in '/Users/jpockey/code/verification form project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug: * Detected change in '/Users/jpockey/code/verification form project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 21:53:26] "GET /form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 21:53:30] "GET /form HTTP/1.1" 200 -
+INFO:root:Successful API request for email: jeremy.pockey@gmail.com
+INFO:werkzeug:127.0.0.1 - - [05/Feb/2024 21:53:33] "POST /form HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2024 13:36:55] "GET /form HTTP/1.1" 200 -
+INFO:root:Successful API request for email: jeremy.pockey@gmail.com
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2024 13:37:03] "POST /form HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/jpockey/code/verification form project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2024 13:41:13] "GET /form HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/jpockey/code/verification form project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug: * Detected change in '/Users/jpockey/code/verification form project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug: * Detected change in '/Users/jpockey/code/verification form project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug: * Detected change in '/Users/jpockey/code/verification form project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2024 13:48:40] "GET /form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2024 13:48:40] "GET /form HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2024 13:48:46] "GET /form HTTP/1.1" 200 -
+INFO:root:Successful API request for email: jpockey@mailgun.com
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2024 14:23:43] "POST /form HTTP/1.1" 200 -
+INFO:root:Successful API request for email: jeremy@jeremypockey.com
+INFO:werkzeug:127.0.0.1 - - [06/Feb/2024 14:26:43] "POST /form HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/jpockey/code/verification form project/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-599-477
