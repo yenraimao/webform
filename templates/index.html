@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Form</title>
+    <style>
+        /* Add some styles for the popup */
+        #popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .error-message {
+            color: red;
+        }
+
+        .success-message {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Email Collection Form</h1>
+    <form method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Enter a valid email address" required>
+        <br>
+        <label for="full_name">Full Name:</label>
+        <input type="text" id="full_name" name="full_name" required>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Display error message if there is one -->
+    {% if error_message %}
+        <p class="error-message">{{ error_message }}</p>
+    {% endif %}
+
+     <!-- Display success message if there is one -->
+    {% if success_message %}
+        <p class="success-message">{{ success_message }}</p>
+    {% endif %}
+
+    <!-- Popup div -->
+    <div id="popup">
+        <h2>Thank you for submitting your email!</h2>
+        <p>Email Address: <span id="submittedEmail"></span></p>
+        <button onclick="hidePopup()">Close</button>
+    </div>
+
+    <script>
+        function showPopup() {
+            // Get the submitted email and display it in the popup
+            var submittedEmail = document.getElementById('email').value;
+            document.getElementById('submittedEmail').innerText = submittedEmail;
+
+            // Show the popup
+            document.getElementById('popup').style.display = 'block';
+
+            // Prevent the form from actually submitting
+            return false;
+        }
+
+        function hidePopup() {
+            // Hide the popup
+            document.getElementById('popup').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
